@@ -130,3 +130,6 @@ dmypy.json
 
 #json key for gs
 sust-dev-01-3ba63a5afe5a.json
+
+#configs for sust gs bucket
+config.ini
