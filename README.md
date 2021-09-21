@@ -31,7 +31,9 @@ FILE_ID= 'your filepath here'
 ACCESS_TOKEN='your token here'
 ```
 In addition, accessing google cloud storage will require a json key.
+
 You can get a mapbox token here: https://account.mapbox.com/access-tokens/ (provided you have a mapbox account, queries of this size are free) 
+
 The mapbox access token is used in `spatial.py` to correctly match lat/lng pairs to their correct zipcodes and states
 The queries used for this data challenged were also cached to: [`spatial-cache.sqlite`](https://github.com/heather235/sust/blob/main/spatial-cache.sqlite)
 
