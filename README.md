@@ -6,7 +6,7 @@ The goals were to:
 2) Combine data into single state values
 
 This data can be run in two methods:
-1) Using the provide Dockerfile
+1) Using the provided Dockerfile
 ```
 $ Docker build -t [your-image-name] .
 $ Docker run [your-image-name] 
